@@ -1,0 +1,23 @@
+{
+  "name": "backend_day_7_guestbook_expressjs",
+  "version": "0.0.1",
+  "description": "Teufelsrochen Guestbook- ExpressJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "JS",
+    "EJS"
+  ],
+  "author": "Cipi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "nanoid": "^4.0.0"
+  }
+}

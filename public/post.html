@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>post</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <form method="post"action="/post" >
+        <div>
+            <label for="">Vorname</label><br>
+            <input type="text" name="vorName" id="input-text" placeholder="Enter Name">
+        </div>
+        <div>
+            <label for="">Name</label><br>
+            <input type="text" name="name"placeholder="Enter Name">
+        </div>
+        <div>
+            <label for="">Email</label><br>
+            <input type="email" name="email" id="input-email" placeholder="Enter Email">
+        </div>     
+         <label for="">Message</label><br>
+        <div>
+            <textarea name="message" cols="30" rows="10"></textarea>
+        </div>
+        <input type="submit" value="post">
+</form>
+<a href="/" class="backButton">zurück zur Startseite</a>
+</body>
+</html>

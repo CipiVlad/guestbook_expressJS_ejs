@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guestbook</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <h1>Einsiedlerkrebs Guestbook!</h1>
+    <div class="img">
+        <img src="https://images.unsplash.com/photo-1506495262506-8c4ef383d872?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGNyYWJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="Einsiedlerkrebs">
+    </div>
+    <div class="link_post_some">    
+        <a href="/post.html">Trag dich in unser Gästebuch ein</a>
+    </div>
+<div class="guestbook_entry_card">
+    <div>
+          <% user.forEach((e, i) =>{%>
+    <div class="each_entry">
+             <p>Vorname:<br> <%- e.vorName %> </p>
+             <p>Name: <br> <%- e.name %> </p>
+             <p>Email: <br> <%- e.email %> </p>
+             <p>Nachricht: <br> <%- e.message %> </p>
+    </div>
+          <%}) %>
+</div>
+</div> 
+</body>
+</html>
